@@ -3,10 +3,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import umc.spring.domain.Notification;
 import umc.spring.domain.User;
-import umc.spring.domain.comoon.BaseEntity;
-import umc.spring.domain.enums.NotificationType;
-
-import java.util.ArrayList;
+import umc.spring.domain.common.BaseEntity;
 
 @Entity
 @Table(name = "user_notification")

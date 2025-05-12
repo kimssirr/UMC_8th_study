@@ -2,7 +2,7 @@ package umc.spring.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import umc.spring.domain.comoon.BaseEntity;
+import umc.spring.domain.common.BaseEntity;
 import umc.spring.domain.enums.Gender;
 import umc.spring.domain.mapping.*;
 
@@ -38,6 +38,7 @@ public class User extends BaseEntity {
     private String phoneNumber;
 
     private int points;
+
     private int completedMissions;
 
     @ManyToOne(fetch = FetchType.LAZY)

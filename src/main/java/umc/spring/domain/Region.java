@@ -2,8 +2,7 @@ package umc.spring.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import umc.spring.domain.User;
-import umc.spring.domain.comoon.BaseEntity;
+import umc.spring.domain.common.BaseEntity;
 
 import java.util.ArrayList;
 import java.util.List;

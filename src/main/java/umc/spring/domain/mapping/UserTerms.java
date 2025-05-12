@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import umc.spring.domain.Terms;
 import umc.spring.domain.User;
-import umc.spring.domain.comoon.BaseEntity;
+import umc.spring.domain.common.BaseEntity;
 
 @Entity
 @Table(name = "user_terms")

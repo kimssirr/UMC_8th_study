@@ -2,7 +2,7 @@ package umc.spring.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import umc.spring.domain.comoon.BaseEntity;
+import umc.spring.domain.common.BaseEntity;
 import umc.spring.domain.mapping.UserMission;
 
 

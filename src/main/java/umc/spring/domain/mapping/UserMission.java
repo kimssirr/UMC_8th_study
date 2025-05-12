@@ -5,9 +5,7 @@ import lombok.*;
 import umc.spring.domain.Mission;
 import umc.spring.domain.Review;
 import umc.spring.domain.User;
-import umc.spring.domain.comoon.BaseEntity;
-
-import java.util.ArrayList;
+import umc.spring.domain.common.BaseEntity;
 
 @Entity
 @Table(name = "user_mission")

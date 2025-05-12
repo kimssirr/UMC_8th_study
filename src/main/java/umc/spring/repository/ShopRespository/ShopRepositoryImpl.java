@@ -3,11 +3,13 @@ package umc.spring.repository.ShopRespository;
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
 import umc.spring.domain.QShop;
 import umc.spring.domain.Shop;
 
 import java.util.List;
 
+@Repository
 @RequiredArgsConstructor
 public class ShopRepositoryImpl implements ShopRepositoryCustom {
 

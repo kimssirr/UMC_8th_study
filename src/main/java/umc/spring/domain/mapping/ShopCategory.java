@@ -4,9 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import umc.spring.domain.Category;
 import umc.spring.domain.Shop;
-import umc.spring.domain.comoon.BaseEntity;
-
-import java.util.ArrayList;
+import umc.spring.domain.common.BaseEntity;
 
 
 @Entity
